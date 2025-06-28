@@ -1,0 +1,26 @@
+.setup {
+  text-align: center;
+}
+
+.form-group {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 400px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #f5d76e;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #f5d76e;
+  background: #1a1a1a;
+  color: #f5d76e;
+}

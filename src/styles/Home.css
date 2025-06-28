@@ -1,0 +1,27 @@
+.home {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.subtitle {
+  color: #f5d76e;
+  margin-bottom: 40px;
+  text-shadow: 0 0 10px rgba(245, 215, 110, 0.3);
+}
+
+.start-button {
+  background: linear-gradient(135deg, #d4af37, #c39d28);
+  color: #000;
+  font-size: 18px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(245, 215, 110, 0.3);
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.start-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(245, 215, 110, 0.4);
+}

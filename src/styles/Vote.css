@@ -1,0 +1,28 @@
+.vote-screen {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.vote-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.vote-buttons button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 50px;
+  border: none;
+  background: linear-gradient(135deg, #d4af37, #bfa132);
+  color: #000;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.vote-buttons button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(245, 215, 110, 0.4);
+}

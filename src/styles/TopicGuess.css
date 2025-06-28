@@ -1,0 +1,36 @@
+.topic-guess {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.guess-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.guess-options button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 50px;
+  border: none;
+  background: linear-gradient(135deg, #d4af37, #bfa132);
+  color: #000;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.guess-options button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(245, 215, 110, 0.4);
+}
+
+.result-msg {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  color: #f5d76e;
+  text-shadow: 0 0 10px rgba(245, 215, 110, 0.3);
+}
